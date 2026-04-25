@@ -1,7 +1,7 @@
-# Aria Travel — landing page
+# Aria Roams — landing page
 
-Static landing page for Aria Travel, served via GitHub Pages at:
-**https://ryandhookaran1.github.io/aria-travel-landing/**
+Static landing page for Aria Roams, served via GitHub Pages at:
+**https://ryandhookaran1.github.io/aria-roams/**
 
 ## Stack
 - Single `index.html`, embedded CSS, no JavaScript, no build step.
