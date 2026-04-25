@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aria Travel — Daily picks of the world's most-searched destinations</title>
+<meta name="description" content="Aria Travel curates the world's most-searched countries into daily snackable travel picks. Hotel deals, tours, transfers, insurance — one source.">
+<meta property="og:title" content="Aria Travel">
+<meta property="og:description" content="Daily picks of the world's most-searched destinations.">
+<meta property="og:type" content="website">
+<style>
+  :root {
+    --bg: #fafaf7;
+    --ink: #1a1a1a;
+    --muted: #6b6b6b;
+    --accent: #c4633a;
+    --line: #e8e4dc;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+  nav {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+  }
+  nav .container { display: flex; justify-content: space-between; align-items: center; }
+  .logo { font-size: 22px; font-weight: 700; color: var(--ink); text-decoration: none; letter-spacing: -0.02em; }
+  .logo span { color: var(--accent); }
+  .nav-links a { color: var(--muted); text-decoration: none; margin-left: 24px; font-size: 14px; }
+  .nav-links a:hover { color: var(--ink); }
+
+  .hero { padding: 80px 0 60px; text-align: center; }
+  .hero h1 { font-size: 56px; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 20px; max-width: 760px; margin-inline: auto; }
+  .hero h1 em { color: var(--accent); font-style: normal; }
+  .hero p { font-size: 19px; color: var(--muted); max-width: 580px; margin: 0 auto 32px; }
+  .hero .cta { display: inline-block; padding: 14px 32px; background: var(--ink); color: var(--bg); border-radius: 8px; text-decoration: none; font-weight: 600; }
+
+  section { padding: 60px 0; border-top: 1px solid var(--line); }
+  section h2 { font-size: 32px; letter-spacing: -0.01em; margin-bottom: 12px; }
+  section .lede { font-size: 17px; color: var(--muted); margin-bottom: 32px; max-width: 620px; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
+  .card h3 { font-size: 18px; margin-bottom: 6px; }
+  .card .meta { font-size: 13px; color: var(--muted); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
+  .card p { font-size: 15px; color: var(--ink); }
+
+  .about p { font-size: 17px; max-width: 720px; margin-bottom: 16px; }
+  .about p strong { color: var(--accent); }
+
+  footer {
+    padding: 48px 0 32px;
+    border-top: 1px solid var(--line);
+    background: #f3efe8;
+    margin-top: 60px;
+  }
+  footer .container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; font-size: 14px; color: var(--muted); }
+  footer a { color: var(--muted); text-decoration: underline; }
+
+  @media (max-width: 700px) {
+    .hero h1 { font-size: 38px; }
+    .hero p { font-size: 17px; }
+    .nav-links a { margin-left: 12px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <a href="/" class="logo">Aria<span>.</span>Travel</a>
+    <div class="nav-links">
+      <a href="#picks">Daily Picks</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <h1>The world's <em>most-searched</em> destinations, served fresh every day.</h1>
+    <p>Aria curates the trending countries travelers are looking up right now — hotels, tours, transfers, and insurance, all in one place. New picks daily.</p>
+    <a href="#picks" class="cta">See today's picks</a>
+  </div>
+</header>
+
+<section id="picks">
+  <div class="container">
+    <h2>This week's most-searched</h2>
+    <p class="lede">Updated daily based on aggregated search trends across major travel platforms.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="meta">Trending #1</div>
+        <h3>Japan</h3>
+        <p>Spring cherry blossom season + the post-2025 visa simplifications keep Japan at the top.</p>
+      </div>
+      <div class="card">
+        <div class="meta">Trending #2</div>
+        <h3>Italy</h3>
+        <p>From Rome's ancient core to Sicily's quieter coast — endless angles for a long weekend.</p>
+      </div>
+      <div class="card">
+        <div class="meta">Trending #3</div>
+        <h3>Thailand</h3>
+        <p>Bangkok hustle, Chiang Mai mountains, southern islands — three trips in one country.</p>
+      </div>
+      <div class="card">
+        <div class="meta">Trending #4</div>
+        <h3>Greece</h3>
+        <p>Beyond Santorini: the Cyclades, the Peloponnese, and Athens' rebuilt food scene.</p>
+      </div>
+      <div class="card">
+        <div class="meta">Trending #5</div>
+        <h3>Portugal</h3>
+        <p>Lisbon, Porto, the Algarve — and increasingly the inland villages of the Alentejo.</p>
+      </div>
+      <div class="card">
+        <div class="meta">Trending #6</div>
+        <h3>Vietnam</h3>
+        <p>Hanoi to Ho Chi Minh City via the karst landscapes of Ninh Binh and Phong Nha caves.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container">
+    <h2>About Aria Travel</h2>
+    <p>Aria Travel is a daily-updated curation of the world's most-searched countries and cities. We aggregate travel-search trends, surface the destinations climbing the rankings, and pair each with the best ways to actually book and experience them.</p>
+    <p>Our content is published daily across <strong>YouTube Shorts</strong>, <strong>Instagram Reels</strong>, and <strong>TikTok</strong> — short-form, snackable, and travel-first.</p>
+    <p>Affiliate disclosure: links on this site and across our channels may earn a commission at no extra cost to you. We only feature partners we'd use ourselves.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <p class="lede">Brand collaborations, tourism boards, partnership inquiries, and reader questions:</p>
+    <p style="font-size: 18px;"><a href="mailto:ryandhookaranredditshorts@gmail.com" style="color: var(--accent); text-decoration: none; font-weight: 600;">ryandhookaranredditshorts@gmail.com</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>© 2026 Aria Travel. All rights reserved.</div>
+    <div><a href="#about">About</a> · <a href="#contact">Contact</a> · <a href="#picks">Picks</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
