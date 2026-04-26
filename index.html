@@ -9,25 +9,18 @@
 <meta property="og:description" content="Daily picks of the world's most-searched destinations.">
 <meta property="og:type" content="website">
 
-<!--
-  ─── STAY22 LET ME ALLEZ AUTO-LINK REWRITER ────────────────────────────
-  Highest-receipt affiliate per the Q1 2026 recon ($1,448/mo avg, $6,500
-  from one install). Auto-rewrites any Booking.com / Airbnb / Vrbo /
-  Hotels.com / Expedia link on the page to a Stay22-tracked link, paying
-  us net-60 on confirmed bookings.
-
-  SETUP (one-time, ~2 min):
-    1. Log into https://hub.stay22.com (already active per credentials)
-    2. Settings → Allez → "Get Embed Code"
-    3. Replace TODO_STAY22_PARTNER_KEY below with your data-key
-    4. Commit + push to GitHub Pages
-  ──────────────────────────────────────────────────────────────────────
--->
-<script
-  defer
-  src="https://www.allez.ai/allez.js"
-  data-key="TODO_STAY22_PARTNER_KEY"
-></script>
+<!-- Stay22 LetMeAllez auto-link rewriter (lmaID activated 2026-04-26) -->
+<script>
+  (function (s, t, a, y, twenty, two) {
+    s.Stay22 = s.Stay22 || {};
+    s.Stay22.params = { lmaID: '69ee89b71c09e44123fdaf56' };
+    twenty = t.createElement(a);
+    two = t.getElementsByTagName(a)[0];
+    twenty.async = 1;
+    twenty.src = y;
+    two.parentNode.insertBefore(twenty, two);
+  })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');
+</script>
 <style>
   :root {
     --bg: #fafaf7;
