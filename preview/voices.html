@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aria voice audition — Argil library</title>
+<style>
+  body {
+    margin: 0; padding: 16px;
+    background: #0a0a0a; color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  h1 { font-size: 18px; margin: 0 0 6px; }
+  p.intro { font-size: 14px; color: #aaa; max-width: 600px; }
+  .voice {
+    background: #161616; border-radius: 8px; padding: 14px;
+    margin-bottom: 12px; max-width: 600px;
+  }
+  .voice h3 { margin: 0 0 4px; font-size: 16px; font-weight: 600; }
+  .voice .uuid { font-family: ui-monospace, Menlo, monospace; font-size: 11px; color: #888; }
+  .voice audio { width: 100%; margin-top: 8px; }
+  .pick-cmd { font-family: ui-monospace, Menlo, monospace; font-size: 12px; color: #aaa; margin-top: 6px; }
+</style>
+</head>
+<body>
+<h1>Aria voice audition — Argil library</h1>
+<p class="intro">
+  Darsan flagged the current auto-generated voice as "too artificial." These are
+  7 candidates from Argil's curated public library — likely sourced from ElevenLabs
+  Voice Library professional VO talent. Pick the one that sounds most natural for
+  Aria, paste the UUID back to Koda, and we re-render with the new voice.
+</p>
+
+<div class="voice">
+  <h3>Sarah</h3>
+  <div class="uuid">7d8fba35-aeda-4570-baa5-4c3dbe60f680</div>
+  <audio controls preload="metadata"><source src="voices/sarah.mp3" type="audio/mpeg"></audio>
+</div>
+
+<div class="voice">
+  <h3>Olivia</h3>
+  <div class="uuid">fabfb0c0-558f-4b14-89ef-ff256ce60763</div>
+  <audio controls preload="metadata"><source src="voices/olivia.mp3" type="audio/mpeg"></audio>
+</div>
+
+<div class="voice">
+  <h3>Freya</h3>
+  <div class="uuid">0932298c-1f94-4028-bfe4-025ea7dfd144</div>
+  <audio controls preload="metadata"><source src="voices/freya.mp3" type="audio/mpeg"></audio>
+</div>
+
+<div class="voice">
+  <h3>Ashley</h3>
+  <div class="uuid">83646041-9a97-4443-b89b-03e543d9bc18</div>
+  <audio controls preload="metadata"><source src="voices/ashley.mp3" type="audio/mpeg"></audio>
+</div>
+
+<div class="voice">
+  <h3>Kendra</h3>
+  <div class="uuid">a9c7f6c0-445b-4050-9acf-0ceb9877fdc6</div>
+  <audio controls preload="metadata"><source src="voices/kendra.mp3" type="audio/mpeg"></audio>
+</div>
+
+<div class="voice">
+  <h3>Joanna</h3>
+  <div class="uuid">ca74f8be-5b1d-4c9a-b9b2-7355fb950a21</div>
+  <audio controls preload="metadata"><source src="voices/joanna.mp3" type="audio/mpeg"></audio>
+</div>
+
+<div class="voice">
+  <h3>Karen</h3>
+  <div class="uuid">7980b247-50f5-4762-a47f-1901c6201ae2</div>
+  <audio controls preload="metadata"><source src="voices/karen.mp3" type="audio/mpeg"></audio>
+</div>
+
+<p class="intro" style="margin-top: 24px;">
+  Pick one and paste back to Koda in Slack: <em>"Use voice X"</em> (where X is the name above).
+  If none of these fit, there are 25 more voices in the full Argil library — Koda can dump them all.
+</p>
+</body>
+</html>
